@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone</title>
+    <link rel="stylesheet" href="./dist/css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1>
+                <img class="header__logo" src="./dist/images/disneyplus.svg" alt="Disney+">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item ">
+                    <a href="#" class="button button--secondary">Assine agora</a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#" class="button button--dark">Entrar</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+   
+   
+   <section class="image-text-section">
+    <img src="https://cinemacomrapadura.com.br/imagens/2019/06/20190611-monstros-s.a-1200x675.jpg" alt="TV e tals">
+    <div class="image-text-section__text_container">
+        <h2 style="text-align: center;" class="title">
+            Monstros S.A</h2>
+        <p class="text--big">
+Monstros S.A. é a maior fábrica de sustos existente. Localizada em uma dimensão paralela, a fábrica constrói portais que levam os monstros para os quartos das crianças, onde eles poderão lhes dar sustos e gerar a fonte de energia necessária para a sobrevivência da fábrica. Entre todos os monstros que lá trabalham o mais assustador de todos é James P. Sullivan (John Goodman), um grande e intimidador monstro de pêlo azul e chifres, que é chamado de Sully por seus amigos. Seu assistente é Mike Wazowski (Billy Crystal), um pequeno ser de um olho só com quem tem por missão assustar as crianças, que são consideradas tóxicas pelos monstros e cujo contato com eles seria catastrófico para seu mundo. Porém, ao visitar o mundo dos humanos a trabalho, Mike e Sully conhecem a garota Boo (Mary Gibbs), que acaba sem querer indo parar no mundo dos monstros.        </p>
+    </div>
+   </section>
+
+   <section class="shows">
+    <nav class="shows__tabs">
+      <strong class="shows__tabs__button">
+        Trailers
+      </strong>
+    </nav>
+                <ul class="shows__list shows__list--is-active">
+                    <li class="shows__list__item">
+                        <video width="520" height="240" controls autoplay>
+                            <source src="./dist/images/Monstros S.A. 3D： Trailer Oficial.mp4" type="video/mp4">
+                        </video>
+                    </li>
+                    <li class="shows__list__item">
+                        <video width="520" height="240" controls autoplay>
+                            <source src="./dist/images/Monstros S.A. 3D： Trailer Oficial.mp4" type="video/mp4">
+                        </video>
+                    </li>
+                    <li class="shows__list__item">
+                        <video width="520" height="240" controls autoplay>
+                            <source src="./dist/images/Monstros S.A. 3D： Trailer Oficial.mp4" type="video/mp4">
+                        </video>
+                    </li>
+                </ul>
+   </section>
+   <section class="image-text-section image-text-section--image-ful-width">
+    <picture>
+        <source media="(max-width 768px)" srcset="./dist/images/fundo_rei_leao_celular.png"/> 
+        <img src="https://i.ytimg.com/vi/UnRW-Y6V8yg/maxresdefault.jpg" alt="">
+    </picture>
+   
+    <div  class="image-text-section__text_container image-text-section--image-ful-width__text_container">
+        <h2  style="color: black; background-color: #FFF;" class="title">
+            Descubra mais sobre essa obra de arte</h2>
+        <p style="color: black; background-color: #FFF;" class="text--big">
+            O astro do susto Sulley e seu assistente Mike entram em uma cilada quando deixam uma menina, considerada altamente tóxica e perigosa, invadir a cidade. Na dimensão paralela, a principal fonte de energia dos monstros provém da coleta dos gritos das crianças humanas. Monstros S.A. é a maior fábrica de sustos existente.        </p>
+    </div>
+
+    <button style="margin-top: 30px;" class="button text--big"> ASSISTA AGORA</button>
+   </section>
+
+
+   <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="./dist/images/disneyplus.svg" alt="ds">
+            <ul class="footer__links">
+                <li class="footer__links__item">
+                    <div class="language-selector">
+                        <img src="./dist/images/icones/globe.svg" alt="Globo do mundo">
+                        <select>
+                            <option>English</option>
+                            <option selected>Portugues</option>
+                        </select>
+                    </div>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Termos e condições de uso</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Politica de dados</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Proteção de Dados</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Anuncios personalizados</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Dispositivos compativeis</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Ajuda</a>
+                </li>
+            </ul>
+            <p class="text--small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ipsam et consectetur delectus iure nemo eligendi? Itaque voluptatibus odit necessitatibus quaerat facilis non quas numquam praesentium, nemo molestias deserunt aliquid.</p>
+            <p class="text--small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae praesentium molestias tempore consequatur aperiam distinctio et, nisi cumque nihil esse eaque sapiente ipsa assumenda aspernatur dolore repellendus aliquam sed animi.</p>
+        </div>
+   </footer>
+   <script src="./dist/js/main.js"></script>
+</body>
+</html>
